@@ -1,0 +1,31 @@
+package StacksAndQueues;
+
+import java.util.*;
+
+public class MatchingBrackets {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        String expression = scanner.nextLine();
+        Deque<Integer> stack = new ArrayDeque<>();
+
+        // Scan through the expression searching for brackets
+        for (int i = 0; i < expression.length(); i++) {
+            char c = expression.charAt(i);
+            if (c == '(') {
+                // If you find an opening bracket, push the index into the stack
+                stack.push(i);
+            } else if (c == ')') {
+                // If you find a closing bracket, pop the topmost element from the stack (the index of the opening bracket)
+                int start = stack.pop();
+                // Use the current index and the popped index to extract the sub-expression
+                String subexpression = expression.substring(start + 1, i);
+                System.out.println("("+subexpression+")");
+            }
+        }
+    }
+}
+
+
+
+
