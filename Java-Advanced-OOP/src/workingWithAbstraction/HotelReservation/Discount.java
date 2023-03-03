@@ -1,12 +1,13 @@
 package workingWithAbstraction.HotelReservation;
-public enum Discount{
+
+public enum Discount {
     None(0),
     SecondVisit(10),
     VIP(20);
     private int value;
 
     Discount(int value) {
-        this.value=value;
+        this.value = value;
 
     }
 

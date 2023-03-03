@@ -2,7 +2,7 @@ package Inheritance.HierarchicalInheritance;
 
 public class Dog extends Animal {
 
-    public void bark(){
+    public void bark() {
         System.out.println("barking...");
     }
-    }
+}

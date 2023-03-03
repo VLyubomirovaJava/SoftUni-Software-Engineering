@@ -58,7 +58,7 @@ public class Chicken {
 
     @Override
     public String toString() {
-        return String.format("Encapsulation.AnimalFarm.Chicken %s (age %d) ",getName(),getAge());
+        return String.format("Encapsulation.AnimalFarm.Chicken %s (age %d) ", getName(), getAge());
     }
 }
 

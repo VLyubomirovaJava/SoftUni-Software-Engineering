@@ -22,10 +22,10 @@ public class StackOfStrings {
     public String peek() {
         return data.get(data.size() - 1);
     }
-    public boolean isEmpty(){
+
+    public boolean isEmpty() {
         return data.isEmpty();
     }
-
 
 
 }

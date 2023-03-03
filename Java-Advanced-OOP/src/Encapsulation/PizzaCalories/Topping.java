@@ -1,4 +1,5 @@
 package Encapsulation.PizzaCalories;
+
 public class Topping {
     private String toppingType;
     private double weight;
@@ -30,19 +31,19 @@ public class Topping {
     }
 
     public double calculateCalories() {
-        double calories=0;
+        double calories = 0;
         switch (this.toppingType) {
             case "Meat":
-                calories = 2 * weight* 1.2;
+                calories = 2 * weight * 1.2;
                 break;
             case "Veggies":
-                calories = 2 * weight*0.8;
+                calories = 2 * weight * 0.8;
                 break;
             case "Cheese":
-                calories =2 * weight* 1.1;
+                calories = 2 * weight * 1.1;
                 break;
             case "Sauce":
-                calories =2 * weight* 0.9;
+                calories = 2 * weight * 0.9;
                 break;
         }
 

@@ -1,4 +1,5 @@
 package Encapsulation.PizzaCalories;
+
 public class Dough {
     private String flourType;
     private String bakingTechnique;
@@ -46,18 +47,18 @@ public class Dough {
 
         switch (bakingTechnique) {
             case "Crispy":
-                calories *=0.9;
+                calories *= 0.9;
                 break;
             case "Chewy":
                 calories *= 1.1;
                 break;
             case "Homemade":
-                calories *=  1.0;
+                calories *= 1.0;
                 break;
         }
         switch (flourType) {
             case "White":
-                calories *=1.5;
+                calories *= 1.5;
                 break;
             case "Wholegrain":
                 calories *= 1;
@@ -65,6 +66,6 @@ public class Dough {
         }
 
         return calories;
-        }
     }
+}
 

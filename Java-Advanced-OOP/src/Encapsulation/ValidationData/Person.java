@@ -20,9 +20,9 @@ public class Person {
     public void setFirstName(String firstName) {
         if (firstName.length() >= 3) {
             this.firstName = firstName;
-        }else
+        } else
             throw new IllegalStateException("First name cannot be less than 3 symbols");
-        }
+    }
 
 
     public String getLastName() {
@@ -32,7 +32,7 @@ public class Person {
     public void setLastName(String lastName) {
         if (lastName.length() >= 3) {
             this.lastName = lastName;
-        }else {
+        } else {
             throw new IllegalStateException("Last name cannot be less than 3 symbols");
         }
     }

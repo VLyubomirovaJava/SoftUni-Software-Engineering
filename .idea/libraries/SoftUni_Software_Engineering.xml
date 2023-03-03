@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="SoftUni-Software-Engineering">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Java-Advanced" />
+      <root url="file://$PROJECT_DIR$/Java-Advanced-OOP/src" />
+      <root url="file://$PROJECT_DIR$/Java-Fundamentals" />
+      <root url="file://$PROJECT_DIR$/src" />
+    </SOURCES>
+  </library>
+</component>

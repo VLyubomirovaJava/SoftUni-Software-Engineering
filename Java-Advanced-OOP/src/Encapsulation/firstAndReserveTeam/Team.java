@@ -1,7 +1,9 @@
 package Encapsulation.firstAndReserveTeam;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
 public class Team {
     private String name;
     private List<Person> firstTeam;

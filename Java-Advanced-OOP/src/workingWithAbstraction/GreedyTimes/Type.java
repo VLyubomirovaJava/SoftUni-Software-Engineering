@@ -1,4 +1,5 @@
 package workingWithAbstraction.GreedyTimes;
+
 public enum Type {
     GOLD,
     GEM,

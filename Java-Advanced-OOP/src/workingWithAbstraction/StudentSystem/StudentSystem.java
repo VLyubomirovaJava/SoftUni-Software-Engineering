@@ -1,4 +1,5 @@
 package workingWithAbstraction.StudentSystem;
+
 import java.util.HashMap;
 
 public class StudentSystem {
@@ -7,7 +8,6 @@ public class StudentSystem {
     public StudentSystem() {
         this.repo = new HashMap<>();
     }
-
 
 
     public void ParseCommand(String[] args) {
@@ -22,7 +22,7 @@ public class StudentSystem {
             }
         } else if (firstArgument.equals("Show")) {
             Student student = repo.get(name);
-            if (student!= null){
+            if (student != null) {
                 String commentary = student.getCommentary();
 
                 System.out.println(commentary);

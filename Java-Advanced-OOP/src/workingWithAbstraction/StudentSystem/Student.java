@@ -1,4 +1,5 @@
 package workingWithAbstraction.StudentSystem;
+
 public class Student {
     private String name;
     private int age;
@@ -9,13 +10,6 @@ public class Student {
         this.age = age;
         this.grade = grade;
     }
-
-
-
-
-
-
-
 
 
     public String getCommentary() {

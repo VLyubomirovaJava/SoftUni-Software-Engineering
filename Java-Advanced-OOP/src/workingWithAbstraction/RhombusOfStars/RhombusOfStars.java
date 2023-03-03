@@ -14,8 +14,7 @@ public class RhombusOfStars {
         int space = n - 1;
         // main loop til we get max of rows(parent loop)
 
-        for (int row = 0; row < n; row++)
-        {
+        for (int row = 0; row < n; row++) {
             // for initial space print, before the *
             for (int j = 0; j < space; j++)
                 System.out.print(" ");
@@ -28,8 +27,7 @@ public class RhombusOfStars {
         }
         // in reverse for second part of diamond
         space = 0;
-        for (int row = n; row > 0; row--)
-        {
+        for (int row = n; row > 0; row--) {
             for (int j = 0; j < space; j++)
                 System.out.print(" ");
             for (int j = 0; j < row; j++)

@@ -1,8 +1,9 @@
 package workingWithAbstraction.jediGalaxy;
+
 public class Player {
-private int row;
-private int column;
-private long points;
+    private int row;
+    private int column;
+    private long points;
 
     public Player(int[] coordinates) {
         this.row = coordinates[0];
@@ -15,16 +16,16 @@ private long points;
         return points;
     }
 
-    public void move(Field field){
+    public void move(Field field) {
 
-        while (row >= 0 && column <field.getInnerLength(1)) {
+        while (row >= 0 && column < field.getInnerLength(1)) {
             if (row < field.getLength()
-                    && column >= 0 && column < field.getInnerLength(0)){
+                    && column >= 0 && column < field.getInnerLength(0)) {
                 this.points += field.getFieldValue(row, column);
-        }
+            }
 
             column++;
             row--;
         }
-}
+    }
 }

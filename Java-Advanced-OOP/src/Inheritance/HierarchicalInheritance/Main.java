@@ -5,7 +5,7 @@ public class Main {
 
         Dog dog = new Dog();
         dog.bark();
-Cat cat = new Cat();
-cat.meow();
+        Cat cat = new Cat();
+        cat.meow();
     }
 }

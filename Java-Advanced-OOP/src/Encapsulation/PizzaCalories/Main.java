@@ -32,7 +32,7 @@ public class Main {
 
         String input = scanner.nextLine();
         while (!input.equals("END")) {
-            String [] toppingInfo =input.split("\\s+");
+            String[] toppingInfo = input.split("\\s+");
             String toppingType = toppingInfo[1];
             double toppingWeight = Double.parseDouble(toppingInfo[2]);
             try {

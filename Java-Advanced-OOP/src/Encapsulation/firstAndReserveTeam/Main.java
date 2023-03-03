@@ -1,9 +1,11 @@
 package Encapsulation.firstAndReserveTeam;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 import java.util.stream.Collectors;
+
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -19,11 +21,11 @@ public class Main {
 
         }
         List<Person> firstTeam = team.getFirstTeam();
-        firstTeam=firstTeam.stream()
-                        .sorted(Comparator.comparing(Person::getAge))
-                                .collect(Collectors.toList());
+        firstTeam = firstTeam.stream()
+                .sorted(Comparator.comparing(Person::getAge))
+                .collect(Collectors.toList());
         List<Person> reserveTeam = team.getReserveTeam();
-        reserveTeam=reserveTeam.stream()
+        reserveTeam = reserveTeam.stream()
                 .sorted(Comparator.comparing(Person::getAge))
                 .collect(Collectors.toList());
 

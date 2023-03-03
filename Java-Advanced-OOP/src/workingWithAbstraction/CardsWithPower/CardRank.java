@@ -1,4 +1,5 @@
 package workingWithAbstraction.CardsWithPower;
+
 public enum CardRank {
     ACE(14),
     TWO(2),
@@ -14,7 +15,7 @@ public enum CardRank {
     QUEEN(12),
     KING(13);
 
-private int power;
+    private int power;
 
     CardRank(int power) {
         this.power = power;
@@ -24,7 +25,7 @@ private int power;
         return power;
     }
 
-    public static CardRank parse(String string){
+    public static CardRank parse(String string) {
         return CardRank.valueOf(string);
     }
 }

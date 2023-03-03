@@ -14,8 +14,6 @@ public class Rectangle {
     }
 
 
-
-
     public void setTopRight(Point topRight) {
         this.topRight = topRight;
     }

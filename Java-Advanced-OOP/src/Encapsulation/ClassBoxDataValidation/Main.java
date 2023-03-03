@@ -11,9 +11,9 @@ public class Main {
         double height = Double.parseDouble(scanner.nextLine());
         try {
             Box box = new Box(length, width, height);
-            System.out.printf("Surface Area - %.2f%n",box.calculateSurfaceArea());
-            System.out.printf("Lateral Surface Area - %.2f%n",box.calculateLateralSurfaceArea());
-            System.out.printf("Volume – %.2f%n",box.calculateVolume());
+            System.out.printf("Surface Area - %.2f%n", box.calculateSurfaceArea());
+            System.out.printf("Lateral Surface Area - %.2f%n", box.calculateLateralSurfaceArea());
+            System.out.printf("Volume – %.2f%n", box.calculateVolume());
 
         } catch (IllegalStateException e) {
             System.out.println(e.getMessage());

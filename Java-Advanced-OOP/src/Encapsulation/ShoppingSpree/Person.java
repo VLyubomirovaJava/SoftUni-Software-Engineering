@@ -2,6 +2,7 @@ package Encapsulation.ShoppingSpree;
 
 import java.util.*;
 import java.util.stream.Collectors;
+
 public class Person {
     private String name;
     private double money;
@@ -29,11 +30,11 @@ public class Person {
     private void setMoney(double money) {
         if (money >= 0) {
             this.money = money;
-        } else{
+        } else {
             throw new IllegalArgumentException("Money cannot be negative");
-    }
+        }
 
-}
+    }
 
     public void buyProduct(Product product) {
         if (this.money >= product.getCost()) {
@@ -43,6 +44,7 @@ public class Person {
             throw new IllegalArgumentException(this.name + " can't afford " + product.getName());
         }
     }
+
     @Override
     public String toString() {
         if (products.isEmpty()) {

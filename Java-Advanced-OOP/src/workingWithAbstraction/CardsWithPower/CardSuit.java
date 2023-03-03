@@ -17,7 +17,7 @@ public enum CardSuit {
         return power;
     }
 
-   public static CardSuit parse(String string){
+    public static CardSuit parse(String string) {
         return CardSuit.valueOf(string);
 
     }

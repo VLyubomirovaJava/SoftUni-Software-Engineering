@@ -11,13 +11,12 @@ public class RhombusOfStars2 {
         printMid(n);
         printBottom(n);
 
-        }
-
+    }
 
 
     private static void printTop(int n) {
         for (int row = 1; row <= n - 1; row++) {
-printRow(n,row);
+            printRow(n, row);
         }
 
     }
@@ -26,7 +25,7 @@ printRow(n,row);
         // each row -> count of space = size - row; count of * = row
         // n =3  -> 1 row = space*space
         //                   2 row = space**
-        for (int space = 1; space <= n -row ; space++) {
+        for (int space = 1; space <= n - row; space++) {
             System.out.print(" ");
         }
         printMid(row);
@@ -38,10 +37,11 @@ printRow(n,row);
         }
         System.out.println();
     }
+
     private static void printBottom(int n) {
-        for (int row =n- 1; row >=1 ; row--) {
-            printRow(n,  row);
+        for (int row = n - 1; row >= 1; row--) {
+            printRow(n, row);
         }
     }
-    }
+}
 

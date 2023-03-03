@@ -1,7 +1,8 @@
 package workingWithAbstraction.PointInRectangle;
+
 public class Point {
-private int X;
-private int Y;
+    private int X;
+    private int Y;
 
     public Point(int x, int y) {
         X = x;
