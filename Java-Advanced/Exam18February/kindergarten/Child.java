@@ -1,4 +1,4 @@
-package kindergarten;
+package Exam18February.kindergarten;
 
 public class Child {
     private String firstName;
@@ -49,7 +49,7 @@ public class Child {
 
     @Override
     public String toString() {
-        return String.format("Child: %s %s, Age: %d, Contact info: %s - %s",getFirstName(),getLastName(),getAge(),getParentName(),getContactNumber());
+        return String.format("Child: %s %s, Age: %d, Contact info: %s - %s", getFirstName(), getLastName(), getAge(), getParentName(), getContactNumber());
     }
 
     public Child(String firstName, String lastName, int age, String parentName, String contactNumber) {

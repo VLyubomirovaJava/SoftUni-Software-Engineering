@@ -1,6 +1,6 @@
 package Exam18February;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class BlindMansBuff {
     static int row;

@@ -50,7 +50,7 @@ public class Groceries {
             }
         }
         if (!isExist){
-            System.out.printf("Product %s isn't in the list.", product);
+            System.out.printf("restaurant.Product %s isn't in the list.", product);
             System.out.println();
         }
     }
@@ -77,10 +77,10 @@ public class Groceries {
             products.set(indexProduct1, product2);
             products.set(indexProduct2, product1);
         } else if (!product1Exist) {
-            System.out.printf("Product %s missing!", product1);
+            System.out.printf("restaurant.Product %s missing!", product1);
             System.out.println();
         } else  {
-            System.out.printf("Product %s missing!", product2);
+            System.out.printf("restaurant.Product %s missing!", product2);
             System.out.println();
         }
     }
