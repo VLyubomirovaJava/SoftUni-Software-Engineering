@@ -24,14 +24,14 @@ public class FancyBarcodes {
                 String digits = "";
                 if (!isFoundWithDigits) {
                     digits = "00";
-                    System.out.println("Product group: " + digits);
+                    System.out.println("restaurant.Product group: " + digits);
                     continue;
                 }
                 while (isFoundWithDigits) {
                     digits = digits.concat(matcherOne.group()); // taking the digits out of the matched full barcode
                     isFoundWithDigits = matcherOne.find();
                 }
-                System.out.println("Product group: " + digits);
+                System.out.println("restaurant.Product group: " + digits);
             } else {
                 System.out.println("Invalid barcode");
             }

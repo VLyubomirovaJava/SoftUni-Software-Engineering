@@ -8,7 +8,7 @@ public class HuntingGames {
 int adventureDays =Integer.parseInt(scanner.nextLine());
 int playersCount =Integer.parseInt(scanner.nextLine());
 double groupEnergy =Double.parseDouble(scanner.nextLine());
-// water +Food per day for one person
+// water +restaurant.Food per day for one person
         double waterPerDay =Double.parseDouble(scanner.nextLine());
         double foodPerDay =Double.parseDouble(scanner.nextLine());
 

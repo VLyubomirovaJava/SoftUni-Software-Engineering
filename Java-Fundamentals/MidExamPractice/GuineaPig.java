@@ -37,7 +37,7 @@ boolean isNotEnough =false;
         if (isNotEnough){
             System.out.println("Merry must go to the pet store!");
         }else {
-            System.out.printf("Everything is fine! Puppy is happy! Food: %.2f, Hay: %.2f, Cover: %.2f.",foodInGrams/1000,hayInGrams/1000,coverInGrams/1000);
+            System.out.printf("Everything is fine! Puppy is happy! restaurant.Food: %.2f, Hay: %.2f, Cover: %.2f.",foodInGrams/1000,hayInGrams/1000,coverInGrams/1000);
         }
     }
 }
