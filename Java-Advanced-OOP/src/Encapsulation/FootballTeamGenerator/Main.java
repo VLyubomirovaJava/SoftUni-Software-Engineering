@@ -1,5 +1,4 @@
 package Encapsulation.FootballTeamGenerator;
-
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -62,6 +61,8 @@ public class Main {
                         printMessage(teamName);
                     }
                     break;
+                default:
+                    throw new IllegalStateException("Unexpected value: " + command);
             }
             input = scanner.nextLine();
         }

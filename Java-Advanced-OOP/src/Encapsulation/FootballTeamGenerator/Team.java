@@ -1,7 +1,5 @@
 package Encapsulation.FootballTeamGenerator;
 
-import Encapsulation.FootballTeamGenerator.Player;
-
 import java.util.*;
 
 public class Team {
