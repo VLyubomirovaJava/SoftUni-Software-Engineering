@@ -1,4 +1,4 @@
-package InterfacesAndAbstraction.CarShop.CarShopExtend;
+package InterfacesAndAbstraction.CarShopExtend;
 
 import java.io.Serializable;
 

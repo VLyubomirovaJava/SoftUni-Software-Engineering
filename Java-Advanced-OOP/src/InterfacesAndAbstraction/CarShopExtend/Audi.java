@@ -1,4 +1,4 @@
-package InterfacesAndAbstraction.CarShop.CarShopExtend;
+package InterfacesAndAbstraction.CarShopExtend;
 
 public class Audi extends CarImpl implements Rentable {
 private Integer minRentPerDay;
