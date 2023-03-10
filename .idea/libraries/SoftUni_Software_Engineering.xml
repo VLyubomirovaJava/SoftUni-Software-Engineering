@@ -9,6 +9,7 @@
       <root url="file://$PROJECT_DIR$/Java-Advanced-OOP/src" />
       <root url="file://$PROJECT_DIR$/Java-Fundamentals" />
       <root url="file://$PROJECT_DIR$/src" />
+      <root url="file://$PROJECT_DIR$" />
     </SOURCES>
   </library>
 </component>
