@@ -1,4 +1,4 @@
-package StackOfStrings;
+package Inheritance.StackOfStrings;
 
 import java.util.*;
 

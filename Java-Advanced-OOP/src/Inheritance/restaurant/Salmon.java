@@ -1,6 +1,4 @@
-package restaurant;
-
-import restaurant.MainDish;
+package Inheritance.restaurant;
 
 import java.math.BigDecimal;
 

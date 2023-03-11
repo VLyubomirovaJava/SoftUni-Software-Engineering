@@ -1,4 +1,4 @@
-package restaurant;
+package Inheritance.restaurant;
 
 import java.util.*;
 
